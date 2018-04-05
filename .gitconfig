@@ -1,3 +1,50 @@
 [user]
 	name = Maurice Washington
 	email = mcwas@umich.edu
+	username = mcwas
+
+[core]
+	editor = nano
+	excludesfile = ~/.gitignore
+
+[color "status"]
+	added = green bold
+	changed = yellow
+	untracked = red bold
+	modified = black
+
+[alias]
+	st = status
+	b = branch
+	ba = branch -a
+	bd = branch -d
+	bdd = branch -D
+	br = branch -r
+	c = commit
+	ca = commit -a
+	cm = commit -m
+	cl = clone
+	f = fetch
+	fo = fetch origin
+	fu = fetch upstream
+	fk = fsck
+	l = log --oneline
+	lg = log --oneline --graph --decorate
+
+	ls = ls-files
+	m = merge
+	ma = merge --abort
+	mc = merge --continue
+	ms = merge --skip
+
+	ch = checkout
+	chb = checkout -b
+
+	ps = push
+	psu = push -u
+	pst = push --tags
+	psf = push -f
+
+	psuom = push -u origin master
+
+	last = log -1 HEAD

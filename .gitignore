@@ -1,0 +1,20 @@
+# Ignore packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore builds
+*.exe
+*.o
+*.swp
+
+# Ignore Logs
+*.log
+
+# Ignore Database
+*.sql

@@ -1,0 +1,11 @@
+## Umich Caen Login
+Host caen
+	HostName login.engin.umich.edu
+	User mcwas
+	ControlMaster auto
+	ControlPath ~/.ssh/_%r@%h:%p
+	ControlPersist 43200
+
+Host mcwas
+	HostName oncampus-course.engin.umich.edu
+	User mcwas
