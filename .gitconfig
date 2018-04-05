@@ -1,7 +1,7 @@
 [user]
 	name = Maurice Washington
 	email = mcwas@umich.edu
-	username = mcwas
+	username = MauriceW569
 
 [core]
 	editor = nano
@@ -14,6 +14,7 @@
 	modified = black
 
 [alias]
+	aa = add --all -v
 	st = status
 	b = branch
 	ba = branch -a
