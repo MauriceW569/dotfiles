@@ -1,11 +1,14 @@
 ## Umich Caen Login
-Host caen
+Host caen mcwas
 	HostName login.engin.umich.edu
 	User mcwas
 	ControlMaster auto
-	ControlPath ~/.ssh/_%r@%h:%p
+	ControlPath ~/.ssh/%r@%h:%p
 	ControlPersist 43200
 
-Host mcwas
+Host mcwas oncampus
 	HostName oncampus-course.engin.umich.edu
 	User mcwas
+	ControlMaster auto
+	ControlPath ~/.ssh/%r@%h:%p
+	ControlPersist 43200
